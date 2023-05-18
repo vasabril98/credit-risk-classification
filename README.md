@@ -16,14 +16,14 @@
   * The balanced accuracy for this model is approximately 95%, which is high considering that it is an imbalanced dataset. 
   * As expected, the precision for a healthy loan is higher (100%) than for a high-risk loan (85%) because of the imbalanced dataset
   * Similarly, the recall for a healthy loan is higher (99%) than for a high-risk loan (91%) because of the imbalanced dataset.
-![LRM_original]()
+![LRM_original](https://github.com/vasabril98/credit-risk-classification/blob/main/images/LRM_original.png)
 
 
 * Logistic regression model with the resampled dataset:
   * The balanced accuracy for this model has increased after resampling the training dataset to approximately 99%
   * We can observe that the precision for the high-risk loans has decreased by 1 percent, and the healthy loans have stayed the same (100%). The precision decreased for high-risk loans because there are more false positives in the confusion matrix for the resampled model.
   * We can observe that the precision for high-risk loans has increased by 8 percent, and healthy loans have stayed the same (99%). The increase in recall for high-risk loans is due to fewer false negatives in the confusion matrix for the resampled model.
-![LRM_resampled]()
+![LRM_resampled](https://github.com/vasabril98/credit-risk-classification/blob/main/images/LRM_resampled.png)
 
 ## Summary
 
